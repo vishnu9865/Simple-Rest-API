@@ -1,5 +1,11 @@
 # Simple-Rest-API
-A simple REST API uisng Express and MongoDB for strengthening my skills as part of my Project Based Learning Process
+
+A simple REST API uisng Express and MongoDB for strengthening my skills as part of my Project Based Learning Process.
+
+- The project utilizes express Router to abstract the route handler for the customer model away from the server js file.
+- I have also tried to use seperate folder for storing the model file of customer.
+
+Below is the API End Point Table for your reference.
 
 | Action | HTTP method | End Point | Response |Description |
 |--------|--------|-----------|-------------|------|
