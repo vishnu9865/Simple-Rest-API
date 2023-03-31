@@ -1,5 +1,5 @@
 {
-  "name": "simple-rest-api",
+  "name": "simple-rest-api-mongodb",
   "version": "1.0.0",
   "description": "A simple REST API using Express and MongoDB part of Project based learning",
   "main": "index.js",
