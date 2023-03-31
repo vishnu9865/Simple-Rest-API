@@ -16,10 +16,10 @@ app.use(express.json());
 
 // use separate route handler for customers
 const customerRouter = require('./routes/customerRouter');
-app.use('/customer', customerRouter);
+app.use('/api/customer', customerRouter);
 
 // base endpoint for validation
-app.get('/', ( req, res) => {
+app.get('/api', ( req, res) => {
   res.json({
     'API Name': 'Simple-Rest-API',
     'Author':'S.Jeyavishnu',
